@@ -63,6 +63,10 @@ public class Main {
                 race.printTrack();
                 System.out.println(); // Space buffer
                 race.printWeights();
+
+                // new update for the 2nd project to put the cars on the track and race
+
+                new Race(race).run();
             }
         }
 
